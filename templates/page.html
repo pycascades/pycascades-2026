@@ -1,0 +1,59 @@
+{% extends 'layout.html' %}
+{% from 'macros/blog.html' import render_blog_post %}
+
+{% block title %}
+{{ this.title }}
+{% endblock %}
+
+{% block body %}
+<section class="section">
+  <div class="container">
+    {% if this.related_pages|length > 0 %}
+    <div class="is-pulled-right see-also">
+      <nav class="message is-dark">
+        <div class="message-header">
+          <p>See Also:</p>
+        </div>
+        <div class="message-body">
+          <ul>
+            {% for related in this.related_pages %}
+            {% set related_page = site.get(related) %}
+            <li>
+              <a href="{{ related_page|url }}">{{related_page.title}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </div>
+    {% endif %}
+    <div class="content mb-3">
+        <h1>{{ this.title }}</h1>
+
+        {{ this.body }}
+    </div>
+  </div>
+
+  {% if this.content %}
+  <div class="container">
+    <div class="content">
+      {{this.content}}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if this.render_child_links %}
+  <div class="container">
+    <div class="content">
+      <ul>
+        {% for child in this.children.filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
+        <li>
+          <a href="{{ child|url }}">{{ child.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
+</section>
+{% endblock %}

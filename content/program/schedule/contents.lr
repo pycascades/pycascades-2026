@@ -1,0 +1,34 @@
+_model: page
+---
+title: Schedule
+---
+content:
+
+#### markdown ####
+title: 
+----
+hidden: False
+----
+body: [CSV version](/program/schedule/pycascades-2026_schedule.csv)
+
+#### html ####
+hidden: False
+----
+content:
+
+<!-- https://docs.pretalx.org/user/event/widget/ -->
+<script type="text/javascript" src="https://pretalx.com/pycascades-2026/schedule/widget/v2.en.js"></script>
+
+<pretalx-schedule event-url="https://pretalx.com/pycascades-2026/" locale="en" style="--pretalx-sticky-top-offset: var(--bulma-navbar-height)"></pretalx-schedule>
+<noscript>
+   <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://pretalx.com/pycascades-2026/schedule/">click here</a>.
+        </div>
+    </div>
+</noscript>
+---
+show_in_menu: no
+---
+_hidden: yes

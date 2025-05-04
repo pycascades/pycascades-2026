@@ -1,0 +1,7 @@
+pycascades-2026_speakers.json
+pycascades-2026_sessions.json
+.python-version
+.DS_Store
+.idea/
+.venv
+.env

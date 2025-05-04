@@ -1,0 +1,17 @@
+{% macro render_pagination(pagination) %}
+<div class="section">
+  <nav class="pagination" role="navigation" aria-label="pagination">
+    {% if pagination.has_prev %}
+    <a class="pagination-previous is-disabled" title="This is the first page">Previous</a>
+    {% else %}
+    <a class="pagination-previous is-disabled" title="This is the first page">Previous</a>
+    {% endif %}
+
+    {% if pagination.has_next %}
+    <a href="#" class="pagination-next">Next page</a>
+    {% else %}
+    <a href="#" class="pagination-next is-disabled">Next page</a>
+    {% endif %}
+  </nav>
+</div>
+{% endmacro %}

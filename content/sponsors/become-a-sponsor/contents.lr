@@ -1,0 +1,93 @@
+_model: page
+---
+title: Become a Sponsor
+---
+show_in_menu: yes
+---
+sort_index: 1
+---
+_hidden: no
+---
+_discoverable: yes
+---
+body: PyCascades is a Python conference for the Pacific Northwest. Our mission is to improve the Python community and Python tools that you use daily. This work can’t be done without the generous financial support that organizations like yours provide us.
+---
+content:
+
+#### markdown ####
+title: About The Conference
+----
+hidden: False
+----
+body: PyCascades was started in 2018 as a regional PyCon for the Cascades Region, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.
+#### markdown ####
+title: Getting in touch with us
+----
+hidden: False
+----
+body: You can reach us via email at [sponsorship@pycascades.com](mailto:sponsorship@pycascades.com)
+
+[View the prospectus (shown below) here.](/sponsors/become-a-sponsor/pycascades-2026-prospectus.pdf)
+
+#### html ####
+hidden: False
+----
+content:
+
+<h2>Sponsorship Tiers</h2>
+
+<p>
+<em>Coming soon...</em>
+</p>
+#### markdown ####
+title: Add-ons
+----
+hidden: False
+----
+body:
+
+We’re offering add-ons this year - these are a great option for organizations who want to differentiate themselves and make a more tangible connection to attendees. 
+_All add-ons require a Silver Sponsorship or higher._
+
+#### Captioning
+
+**Cost:** $1000
+
+**Availability:** 2 (one per day)
+
+**Benefits:** Special on-stage thank you at the beginning and end of your sponsored day.
+
+#### Coffee Break
+
+**Cost:** $2000
+
+**Availability:** 1
+
+**Benefits:** Signage by the beverage and snack stations plus an on-stage thank you during opening and closing remarks. These high-traffic areas are great for visibility!
+
+#### Lanyard
+
+**Cost:** $2000
+
+**Availability:** 1
+
+**Benefits:** Your logo printed on our lanyards. As always, we’re giving attendees our engraved wooden badges this year, so most attendees hang onto their badges long after the conference.
+
+#### Quiet Room
+
+**Cost:** $2000
+
+**Availability:** 1
+
+**Benefits:** Signage at the Quiet Viewing Room plus an on-stage thank you during opening remarks and welcome email. The Quiet Viewing Room is a differentiating feature for PyCascades that we consistently get positive feedback about.
+
+#### markdown ####
+title: How we use funds
+----
+hidden: False
+----
+body:
+
+All sponsorship funds and the revenue from all tickets are used in the direct operations of the PyCascades conference. We use this money to rent our venue(s), pay our vendors, buy supplies, provide our online platform, and fund all other conference costs. Additionally, sponsorship and corporate-level ticket sales allow us offer make individual- and student-level tickets at affordable prices, as well as offering grants to attendees who need them. Any funds above our costs are reserved for future years' conferences.
+
+PyCascades is a direct project of the Python Software Foundation (“the PSF”). In addition to tax deductibility as a marketing expense for our sponsors, any applicable benefits of the PSF’s 501(c)3 designation from the IRS also may apply. Determination letter from the IRS designating the PSF as a charitable organization available from the PSF website.

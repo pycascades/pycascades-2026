@@ -1,0 +1,11 @@
+_model: page
+---
+title: Venue
+---
+body: 
+---
+show_in_menu: yes
+---
+sort_index: 0
+---
+_hidden: yes

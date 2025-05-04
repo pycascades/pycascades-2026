@@ -1,0 +1,24 @@
+_model: page
+---
+title: Attending in Person
+---
+show_in_menu: yes
+---
+sort_index: 1
+---
+content:
+
+#### markdown ####
+title: Venue
+----
+hidden: False
+----
+body: For venue specific information, please see the [venue page](/attend/venue).
+#### markdown ####
+title: Food and Drinks
+----
+hidden: False
+----
+body: TBD
+---
+_hidden: yes

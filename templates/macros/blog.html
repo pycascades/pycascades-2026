@@ -1,0 +1,27 @@
+{% macro render_blog_post(post, from_index=false) %}
+<div class="section">
+  {% if from_index %}
+  <h2 class="title is-2"><a href="{{ post | url }}">{{ post.title }}</a></h2>
+  {% else %}
+  <h2 class="title is-2">{{ post.title }}</h2>
+  {% endif %}
+
+  <p class="mb-3 is-size-7">
+    written by
+    <span class="is-italic">
+      {{ post.author }}
+    </span>
+    on
+    <span class="is-italic">{{ post.pub_date }}</span>
+  </p>
+
+  <div class="content">
+    {{ post.intro }}
+    {% if from_index %}
+    <a href="{{ post | url }}">Read more...</a>
+    {% else %}
+    {{ post.body }}
+    {% endif %}
+  </div>
+</div>
+{% endmacro %}

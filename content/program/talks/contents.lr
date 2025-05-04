@@ -1,0 +1,9 @@
+_model: talks
+---
+title: Talks
+---
+show_in_menu: no
+---
+_hidden: yes
+---
+sort_index: 1
