@@ -1,0 +1,25 @@
+name: Gold
+---
+availability: 6
+---
+banner_logo: yes
+---
+in_person_booth: yes
+---
+in_person_passes: 2
+---
+intermission_logo: yes
+---
+logo: yes
+---
+price: $6,000
+---
+remote_passes: 6
+---
+social_media_mentions: yes
+---
+sort_index: 2
+---
+virtual_booth: yes
+---
+website_logo_with_message: yes

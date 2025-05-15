@@ -1,0 +1,17 @@
+name: Silver
+---
+availability: 10
+---
+in_person_passes: 2
+---
+logo: yes
+---
+price: $3,000
+---
+remote_passes: 4
+---
+social_media_mentions: yes
+---
+sort_index: 3
+---
+virtual_booth: yes

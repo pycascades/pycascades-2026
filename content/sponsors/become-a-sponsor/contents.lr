@@ -1,4 +1,4 @@
-_model: page
+_model: sponsor-tiers
 ---
 title: Become a Sponsor
 ---
@@ -25,20 +25,13 @@ title: Getting in touch with us
 ----
 hidden: False
 ----
-body: You can reach us via email at [sponsorship@pycascades.com](mailto:sponsorship@pycascades.com)
+body:
 
+You can reach us via email at [sponsorship@pycascades.com](mailto:sponsorship@pycascades.com)
 [View the prospectus (shown below) here.](/sponsors/become-a-sponsor/pycascades-2026-prospectus.pdf)
+---
+add_ons:
 
-#### html ####
-hidden: False
-----
-content:
-
-<h2>Sponsorship Tiers</h2>
-
-<p>
-<em>Coming soon...</em>
-</p>
 #### markdown ####
 title: Add-ons
 ----
@@ -80,7 +73,6 @@ _All add-ons require a Silver Sponsorship or higher._
 **Availability:** 1
 
 **Benefits:** Signage at the Quiet Viewing Room plus an on-stage thank you during opening remarks and welcome email. The Quiet Viewing Room is a differentiating feature for PyCascades that we consistently get positive feedback about.
-
 #### markdown ####
 title: How we use funds
 ----
