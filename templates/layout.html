@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="light">
+<html data-theme="light" lang="en">
 
 <head>
     <meta charset="utf-8"/>
@@ -31,7 +31,7 @@
         <div class="navbar-item">
             <a href="/" class="nav-link">
                 <div class="nav-icon">
-                    <img src="{{ '/static/header-logo.png'|asseturl }}" height="200"/>
+                    <img src="{{ '/static/header-logo.png'|asseturl }}" alt="PyCascades logo" height="200"/>
                 </div>
             </a>
         </div>
@@ -112,9 +112,9 @@
 </footer>
 
 <div className="mastodon-verification">
-    <a rel="me" href="https://fosstodon.org/@pycascades"></a>
+    <a rel="me" href="https://hachyderm.io/@pycascades" aria-hidden="true" tabindex="-1"></a>
     {% for organizer in site.query('/about/the-team').include_undiscoverable(true).filter(F.mastodon_url.startswith('https://')) %}
-        <a rel="me" href="{{ organizer.mastodon_url }}"></a>
+        <a rel="me" href="{{ organizer.mastodon_url }}" aria-hidden="true" tabindex="-1"></a>
     {% endfor %}
 </div>
 </body>

@@ -31,3 +31,5 @@ video_logo: yes
 virtual_booth: yes
 ---
 website_logo_with_message: yes
+---
+_discoverable: no

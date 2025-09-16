@@ -5,11 +5,26 @@
 {% endblock %}
 
 {% block body %}
-<section class="section">
+
+<main class="section">
+{% if this.anchors %}
+<div class="columns">
+<div class="column is-2 ">
+<aside class="menu">
+  <ul class="menu-list">
+    {% for anchor in this.anchors %}
+    {% set pretty, link = anchor.split('|') %}
+    <li><a href="#{{ link }}">{{ pretty }}</a></li>
+    {% endfor %}
+  </ul>
+</aside>
+</div>
+<div class="column">
+{% endif %}
   <div class="container">
     {% if this.related_pages|length > 0 %}
     <div class="is-pulled-right see-also">
-      <nav class="message is-dark">
+      <nav class="message is-dark" aria-label="related pages">
         <div class="message-header">
           <p>See Also:</p>
         </div>
@@ -54,5 +69,9 @@
     </div>
   </div>
   {% endif %}
-</section>
+{% if this.anchors %}
+</div>
+</div>
+{% endif %}
+</main>
 {% endblock %}

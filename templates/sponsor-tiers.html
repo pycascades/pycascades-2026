@@ -4,10 +4,10 @@
 {{ this.title }}
 {% endblock %}
 {% block body %}
-<section class="section">
+<main class="section">
     <div class="container">
         <div class="content">
-            <h1>{{ this.title }}</h1>
+            <h1 class="title is-2">{{ this.title }}</h1>
 
             {{ this.content }}
         </div>
@@ -16,25 +16,25 @@
             <h2>Sponsorship Tiers</h2>
             
             <table class="table is-bordered is-hoverable is-striped">
-                {{ render_header_row(this.children) }}
+                {{ render_header_row(this.children.include_undiscoverable(true)) }}
             
                 <tbody>
-                    {{ render_row("Availability", "", "availability", this.children) }}
-                    {{ render_section("Tickets", this.children) }}
-                    {{ render_row("Complementary conference passes (in person)", "", "in_person_passes", this.children) }}
-                    {{ render_row("Complementary conference passes (remote)", "", "remote_passes", this.children) }}
-                    {{ render_section("Benefits", this.children) }}
-                    {{ render_row("Logo on website and press releases", "", "logo", this.children) }}
-                    {{ render_row("Social Media Mentions", "", "social_media_mentions", this.children) }}
-                    {{ render_row("Virtual booth space", "", "virtual_booth", this.children) }}
-                    {{ render_row("In-person booth space", "", "in_person_booth", this.children) }}
-                    {{ render_row("Logo with message on website", "", "website_logo_with_message", this.children) }}
-                    {{ render_row("Logo banner on stage", "", "banner_logo", this.children) }}
-                    {{ render_row("Logo on intermission video", "", "intermission_logo", this.children) }}
-                    {{ render_row("Logo with brief message in opening and closing emails", "", "email_logo", this.children) }}
-                    {{ render_row("Acknowledgement in opening and closing remarks", "", "acknowledgement", this.children) }}
-                    {{ render_row("Logo on videos and screen recordings during sessions", "", "video_logo", this.children) }}
-                    {{ render_row("Five minute talk slot", "", "five_minute_talk", this.children) }}
+                    {{ render_row("Availability", "", "availability", this.children.include_undiscoverable(true)) }}
+                    {{ render_section("Tickets", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Complementary conference passes (in person)", "", "in_person_passes", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Complementary conference passes (remote)", "", "remote_passes", this.children.include_undiscoverable(true)) }}
+                    {{ render_section("Benefits", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Logo on website and press releases", "", "logo", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Social Media Mentions", "", "social_media_mentions", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Virtual booth space", "", "virtual_booth", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("In-person booth space", "", "in_person_booth", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Logo with message on website", "", "website_logo_with_message", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Logo banner on stage", "", "banner_logo", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Logo on intermission video", "", "intermission_logo", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Logo with brief message in opening and closing emails", "", "email_logo", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Acknowledgement in opening and closing remarks", "", "acknowledgement", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Logo on videos and screen recordings during sessions", "", "video_logo", this.children.include_undiscoverable(true)) }}
+                    {{ render_row("Five minute talk slot", "", "five_minute_talk", this.children.include_undiscoverable(true)) }}
                 </tbody>
             </table>
         </div>
@@ -43,5 +43,5 @@
             {{ this.add_ons }}
         </div>
     </div>
-</section>
+</main>
 {% endblock %}

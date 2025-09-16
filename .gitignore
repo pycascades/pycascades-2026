@@ -5,3 +5,6 @@ pycascades-2026_sessions.json
 .idea/
 .venv
 .env
+
+__pycache__
+.pytest_cache

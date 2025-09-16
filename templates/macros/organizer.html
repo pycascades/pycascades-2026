@@ -3,11 +3,11 @@
     <div class="card-image">
         <figure class="image">
             {% if organizer.attachments.get('profile.jpg') %}
-            <img src="{{organizer.attachments.get('profile.jpg') | url}}" />
+            <img src="{{organizer.attachments.get('profile.jpg') | url}}" alt="{{organizer.photo_alt}}"/>
             {% elif organizer.attachments.get('profile.jpeg') %}
-            <img src="{{organizer.attachments.get('profile.jpeg') | url}}" />
+            <img src="{{organizer.attachments.get('profile.jpeg') | url}}" alt="{{organizer.photo_alt}}" />
             {% elif organizer.attachments.get('profile.png') %}
-            <img src="{{organizer.attachments.get('profile.png') | url}}" />
+            <img src="{{organizer.attachments.get('profile.png') | url}}" alt="{{organizer.photo_alt}}"/>
             {% endif %}
         </figure>
     </div>
@@ -15,8 +15,8 @@
     <div class="card-content">
         <div class="media">
             <div class="media-content">
-                <h4 class="title is-4">{{organizer.name}}</h4>
-                <h6 class="subtitle is-6">{{organizer.role}}</h6>
+                <h2 class="title is-4">{{organizer.name}}</h2>
+                <h3 class="subtitle is-6">{{organizer.role}}</h3>
                 <p>{{organizer.bio}}</p>
             </div>
         </div>
@@ -30,13 +30,13 @@
 
         {% if organizer.mastodon_url %}
         <a class="card-footer-item" href="{{ organizer.mastodon_url }}">
-            <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35" />
+            <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35" alt="Mastodon logo"/>
         </a>
         {% endif %}
 
         {% if organizer.twitter_handle %}
         <a class="card-footer-item" href="https://www.twitter.com/@{{organizer.twitter_handle}}">
-            <img src="{{ '/static/x.svg' | asseturl }}" width="35" />
+            <img src="{{ '/static/x.svg' | asseturl }}" width="35" alt="X logo"/>
         </a>
         {% endif %}
     </footer>

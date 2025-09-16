@@ -13,3 +13,5 @@ remote_passes: 2
 social_media_mentions: yes
 ---
 sort_index: 4
+---
+_discoverable: no

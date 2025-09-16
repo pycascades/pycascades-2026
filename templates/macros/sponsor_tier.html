@@ -1,7 +1,7 @@
 
 {% macro render_header_row(tiers) %}
   <thead>
-    <th colspan="4"></th>
+    <th colspan="4"><p>Tier</p><p>Price</p></th>
     {% for tier in tiers %}
       <th>
         <p>{{ tier.name }}</p>
@@ -33,6 +33,8 @@
            ✓
         {% elif tier[key] is not sameas false %}
           {{ tier[key] }}
+        {% elif tier.key is undefined %}
+          -
         {% endif %}
       </td>
     {% endfor %}

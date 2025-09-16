@@ -11,3 +11,5 @@ sort_index: 5
 mastodon_url: https://infosec.exchange/@ggoddard
 ---
 twitter_handle: ggoddard
+---
+_discoverable: no
