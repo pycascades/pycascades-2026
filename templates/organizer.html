@@ -1,9 +1,12 @@
 {% extends 'layout.html' %}
+{% from 'macros/organizer.html' import render_organizer %}
 {% block title %}
   {{ this.title }}
 {% endblock %}
 {% block body %}
-  <h2>{{ this.name }}</h2>
-  <h3>{{ this.title }}</h3>
-  <div>{{ this.description }}</div>
+<main class="content">
+<section class="section">
+{{ render_organizer(this) }}
+</section>
+</main>
 {% endblock %}
