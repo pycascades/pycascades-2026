@@ -1,19 +1,21 @@
 
 {% macro render_header_row(tiers) %}
   <thead>
-    <th colspan="4"><p>Tier</p><p>Price</p></th>
+    <tr>
+    <th ><p>Tier</p><p>Price</p></th>
     {% for tier in tiers %}
       <th>
         <p>{{ tier.name }}</p>
         <p>{{ tier.price }}</p>
       </th>
     {% endfor %}
+    </tr>
   </thead>
 {% endmacro %}
 
 {% macro render_section(name, tiers) %}
   <tr>
-    <td colspan="4" class="is-primary">{{ name }}</td>
+    <td class="is-primary">{{ name }}</td>
     {% for tier in tiers %}
       <td class="is-primary"></td>
     {% endfor %}
@@ -22,7 +24,7 @@
 
 {% macro render_row(label, description, key, tiers) %}
   <tr>
-    <td colspan="4">
+    <td >
       <strong>{{ label }}:</strong>
       <span>{{description}}</span>
     </td>

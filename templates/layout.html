@@ -2,8 +2,8 @@
 <html data-theme="light" lang="en">
 
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
           content="Website for PyCascades 2026, a regional Python conference in the Pacific Northwest.">
     <meta name="keywords" content="Python,PyCon,Conference,Seattle,PNW">
@@ -13,16 +13,16 @@
           content="Website for PyCascades 2026, a regional Python conference in the Pacific Northwest.">
     <meta property="og:image" content="{{ '/static/header-logo.png'|asseturl }}">
     <meta property="og:title" content="PyCascades 2026">
-    <link rel="shortcut icon" href="{{ '/static/favicon.ico'|asseturl }}"/>
+    <link rel="shortcut icon" href="{{ '/static/favicon.ico'|asseturl }}">
     <title>
         {% block title %}
             Welcome
         {% endblock %}— PyCascades 2026
     </title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}">
 </head>
 
 <body class="has-navbar-fixed-top">
@@ -31,7 +31,7 @@
         <div class="navbar-item">
             <a href="/" class="nav-link">
                 <div class="nav-icon">
-                    <img src="{{ '/static/header-logo.png'|asseturl }}" alt="PyCascades logo" height="200"/>
+                    <img src="{{ '/static/header-logo.png'|asseturl }}" alt="PyCascades logo" height="200">
                 </div>
             </a>
         </div>
@@ -111,13 +111,12 @@
     </div>
 </footer>
 
-<div className="mastodon-verification">
+<div class="mastodon-verification">
     <a rel="me" href="https://hachyderm.io/@pycascades" aria-hidden="true" tabindex="-1"></a>
     {% for organizer in site.query('/about/the-team').include_undiscoverable(true).filter(F.mastodon_url.startswith('https://')) %}
         <a rel="me" href="{{ organizer.mastodon_url }}" aria-hidden="true" tabindex="-1"></a>
     {% endfor %}
 </div>
-</body>
 
 <script>
     function openMenu() {
@@ -128,5 +127,6 @@
 
     document.querySelector('.navbar-burger').addEventListener('click', openMenu);
 </script>
+</body>
 
 </html>
