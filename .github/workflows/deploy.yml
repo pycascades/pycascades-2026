@@ -1,0 +1,46 @@
+name: "Deploy site"
+
+on:
+  push:
+    branches:
+      - "main"
+  workflow_dispatch:
+    # Allow manually running workflow
+
+permissions:
+    pages: write
+    id-token: write
+
+
+env:
+  DEPLOY: >-
+    ${{
+    github.event_name != 'pull_request'
+    &&
+    github.ref == 'refs/heads/main'
+    }}
+  OUTPUT: _site
+
+jobs:
+  build:
+    name: Build lektor website
+    environment: github-pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install Lektor
+        run: |
+          python -m pip install --upgrade pip setuptools
+          python -m pip install lektor
+
+      - name: Build lektor website
+        run: lektor build -O '${{ env.OUTPUT }}'
+      - uses: actions/upload-pages-artifact@v3
+      - name: Deploy lektor
+        if: env.DEPLOY == 'true'
+        uses: actions/deploy-pages@v4
+
