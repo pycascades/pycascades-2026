@@ -3,11 +3,11 @@
     <div class="card-image">
         <figure class="image">
             {% if organizer.attachments.get('profile.jpg') %}
-            <img src="{{organizer.attachments.get('profile.jpg') | url}}" alt="{{organizer.photo_alt}}"/>
+            <img src="{{organizer.attachments.get('profile.jpg') | url}}" alt="{{organizer.photo_alt | default('photo of ' + organizer.name)}}"/>
             {% elif organizer.attachments.get('profile.jpeg') %}
-            <img src="{{organizer.attachments.get('profile.jpeg') | url}}" alt="{{organizer.photo_alt}}" />
+            <img src="{{organizer.attachments.get('profile.jpeg') | url}}" alt="{{organizer.photo_alt | default('photo of ' + organizer.name)}}" />
             {% elif organizer.attachments.get('profile.png') %}
-            <img src="{{organizer.attachments.get('profile.png') | url}}" alt="{{organizer.photo_alt}}"/>
+            <img src="{{organizer.attachments.get('profile.png') | url}}" alt="{{organizer.photo_alt | default('photo of ' + organizer.name)}}"/>
             {% endif %}
         </figure>
     </div>
