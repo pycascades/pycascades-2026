@@ -98,6 +98,21 @@
         </div>
     </div>
 </nav>
+<article class="message is-success hidden" id="cfpMessage" style="margin-bottom: 0px;">
+    <div class="message-header">
+        <p>CFP Open Now!</p>
+        <button class="delete" aria-label="delete" id="hideCfpMessage"></button>
+    </div> 
+    </div>
+    <div class="message-body">
+        <p>Our Call for Papers is now open! View the CFP here: <a href="https://pretalx.com/pycascades-2026">Submit CFP</a> <br>
+        We also have information for prospective speakers here: <a href="https://www.pycascades.com/news/cfp-review/">CFP Review Process</a>
+        </p>
+        <p>
+            CFP closes 10/27 AoE, make sure to get your proposal in on time!
+        </p>
+    </div>
+</article>
 
 {% block body %}
 
@@ -124,8 +139,19 @@
         document.querySelector('.navbar-burger').classList.toggle('is-active');
         document.querySelector('.navbar-menu').classList.toggle('is-active');
     }
-
     document.querySelector('.navbar-burger').addEventListener('click', openMenu);
+    document.getElementById("hideCfpMessage").addEventListener('click', (event) => {
+        localStorage.setItem('HideCFPMessage', true);
+        document.getElementById('cfpMessage').classList.add("hidden");
+    });
+    addEventListener("load", (event) => {
+        let cfpMessageHidden = localStorage.getItem('HideCFPMessage');
+        const cfpMessage = document.getElementById('cfpMessage');
+        const now = Date.now();
+        const cfpOpen = Date.parse('2025-08-22T08:00:00-07:00');
+        const cfpClose = Date.parse('2025-10-27T23:59:50-12:00');
+        cfpMessageHidden || now < cfpOpen || now > cfpClose || cfpMessage.classList.remove("hidden");
+    });
 </script>
 </body>
 
