@@ -56,12 +56,12 @@
     <section class="hero is-medium">
         <div class="hero-body">
             <div class="mailing-list block">
-                <h4 class="title is-4">Follow the Conversation</h4>
+                <h3 class="title is-3">Keep in touch!</h3>
                 <p class="block">
-                    Join our newsletter to hear the latest news as soon as we announce them.
+                    Join our newsletter to hear the latest news as soon as it's announced!
                 </p>
                 <p class="block">
-                    We promise, we won't overload your inbox.
+                    We promise, we won't overload your inbox. (Fewer than 10 emails per year)
                 </p>
                 <form
                     action="https://buttondown.com/api/emails/embed-subscribe/pycascades"
@@ -71,8 +71,7 @@
                     class="embeddable-buttondown-form">
                     <div class="field has-addons">
                         <div class="control is-expanded">
-                            <input class="input" id="bd-email" type="email" name="email" value="" placeholder="Your Email"
-                                required="required">
+                            <input class="input" id="bd-email" type="email" name="email" value="" placeholder="Your Email" required="required">
                         </div>
                         <div class="control">
                             <button class="button is-primary" type="submit"><i class="fa-solid fa-paper-plane"></i>
@@ -83,17 +82,23 @@
                 </form>
             </div>
             <div class="columns mt-6">
-                <div class="column">
-                    <a href="https://fosstodon.org/@pycascades">
-                        <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35" alt="Mastodon icon">
+                <div class="column icon-text">
+                    <span class="icon has-text-primary" aria-hidden="true"><span class="fa-brands fa-mastodon fa-2xl">&nbsp;</span></span>
+                    <a href="https://hachyderm.io/@pycascades">
+                    Follow us on Mastodon
                     </a>
-                    You can follow us
                 </div>
-                <div class="column">
-                    <a href="https://join.slack.com/t/pycascades/shared_invite/zt-1l5libchy-RyQi1Kh0PS8DXCfhxhHZhQ">
-                        <img src="{{ '/static/slack.svg' | asseturl }}" width="35" alt="Slack icon">
+                <div class="column icon-text">
+                    <span class="icon has-text-primary" aria-hidden="true"><span class="fa-solid fa-rss fa-2xl">&nbsp;</span></span>
+                    <a href="{{ '/news@atom/news'|url }}" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed">
+                    Add our news to your RSS feed 
                     </a>
-                    Or join our Slack workspace
+                </div>
+                <div class="column icon-text">
+                    <span class="icon has-text-primary" aria-hidden="true"><span class="fa-brands fa-slack fa-2xl">&nbsp;</span></span>
+                    <a href="https://join.slack.com/t/pycascades/shared_invite/zt-1l5libchy-RyQi1Kh0PS8DXCfhxhHZhQ">
+                    Join our Slack workspace
+                    </a>
                 </div>
             </div>
         </div>
