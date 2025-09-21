@@ -117,9 +117,32 @@ Once you are done you'll want to commit the new or changed files to your branch 
 pull request. An organizer will review your changes and merge them if they are ready. Once merged
 an organizer will deploy your changes to the live site.
 
-# Deploying
+## Deployment
 
-Deploying is easy: `just deploy`
+The site lives on Github Pages and is deployed from `main` via Github Actions.
+Any new commit to the `main` branch (e.g, a push or pr merge) automatically deploys.
+If you need to redeploy, for instance if we start dynamically pulling from external 
+sources in the future, you can also manually deploy via the Github Actions web UI.
 
-Lektor will commit the built site to the `gh-pages` branch, and push, which will get deployed by
-GitHub automatically.
+
+## testing accessibility with Axe
+
+We're using [axe-core](https://www.deque.com/axe/) to do basic usability testing.
+Thanks to PyBay for inspiration on this.
+The way it works is:
+1. we make a temporary directory (once per pytest invocation)
+1. we make Lektor build into the temportary directory
+1. we start up a web server
+1. we point playwright + axe at our webserver
+1. we assert that there are zero warnings
+
+### So our site is accessible, right?
+
+This kind of testing is the bare minimum, and we should look for ways to improve, 
+especially if we can engage accessibility specialists and folks who primarily 
+browse the web with screen readers
+
+### running locally
+The `uv` way:
+1. uvx --with-requirements tests/requirements.txt playwright install  # this only needs to be done once
+1. uvx --with-requirements tests/requirements.txt pytest
