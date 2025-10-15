@@ -59,14 +59,14 @@
 }
 
 .city-image {
-    background-image: url("/static/vancouver_the_lions.jpg");
+    background-image: url("/static/Background.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .city-image>.hero-body {
-    background-image: linear-gradient(rgba(91, 91, 30, 0.4), rgba(0, 0, 0, 0.8));
+    /*background-image: linear-gradient(rgba(91, 91, 30, 0.4), rgba(0, 0, 0, 0.8));*/
 }
 
 .city-image,
@@ -75,6 +75,13 @@
 .info .title,
 .info .subtitle {
     color: #FFFFFF;
+}
+
+.homelogo {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 500px;
 }
 
 .home .info {
