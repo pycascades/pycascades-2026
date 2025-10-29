@@ -102,14 +102,14 @@
     <div class="message-header">
         <p>CFP Open Now!</p>
         <button class="delete" aria-label="delete" id="hideCfpMessage"></button>
-    </div> 
+    </div>
     </div>
     <div class="message-body">
         <p>Our Call for Papers is now open! View the CFP here: <a href="https://pretalx.com/pycascades-2026/cfp">Submit your talk</a> <br>
         We also have information for prospective speakers here: <a href="https://www.pycascades.com/news/cfp-review/">CFP Review Process</a>
         </p>
         <p>
-            CFP closes October 27th, make sure to get your proposal in on time!
+            CFP deadline is <del>October 27th</del> <ins>extended to November 3rd</ins>, make sure to get your proposal in on time!
         </p>
     </div>
 </header>
@@ -149,7 +149,7 @@
         const cfpMessage = document.getElementById('cfpMessage');
         const now = Date.now();
         const cfpOpen = Date.parse('2025-08-22T08:00:00-07:00');
-        const cfpClose = Date.parse('2025-10-27T23:59:50-12:00');
+        const cfpClose = Date.parse('2025-11-03T23:59:50-12:00');
         cfpMessageHidden || now < cfpOpen || now > cfpClose || cfpMessage.classList.remove("hidden");
     });
 </script>
