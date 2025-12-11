@@ -28,11 +28,6 @@ alias serve := up
 clean:
     lektor clean
 
-# Deploy the site
-deploy:
-    @just build
-    lektor deploy ghpages
-
 ##################
 # Other commands #
 ##################
@@ -44,7 +39,3 @@ generate-program:
 # Generate the schedule CSV
 generate-schedule:
     @python3 scripts/generate_schedule.py
-
-
-
-
