@@ -2,51 +2,71 @@ _model: page
 ---
 title: Health and Safety Policy
 ---
-show_in_menu: no
+show_in_menu: yes
 ---
 body:
 
-### Masking Required In Most Areas
 
-Masking is required unless otherwise specified. At a minimum, masking will be required in:
-- the main viewing space
-- the quiet viewing space
-- halls connecting the main viewing space to outside
-- bathrooms
-- the green room
+Our community matters to us at PyCascades. As such we have a duty to project one another and keep each other safe.
 
-Depending on our ability to control and measure airflow, among other factors, we may relax
-masking restrictions while in the dining area.
+Since our return to in-person events we have required masking in all or most areas. Our commitment to the health and safety for all attendees is paramount and this policy is our framework to ensure we all respect the health of our fellow attendees.
 
-Exceptions to the masking policy are:
-- Indoors while actively consuming food or beverages
-- Speakers while presenting
-- While necessary for communicating with someone who is hearing impaired when the ability to see the mouth is essential for communication
+Our Health and Safety Policy encourages facial coverings in spaces where physical distancing cannot be maintained, expects attendees to be fully vaccinated, and voluntary testing for anyone feeling unwell. Our chosen venue, Simon Fraser University's Harbour Centre, has an air quality page with details regarding their HVAC system. This page can be found on their [website](https://www.sfu.ca/srs/work-research-safety/general-safety/indoor-air-quality/air-quality/COVID-19.html).
 
-Masks must be worn over the nose and mouth and must be made of a tight-knit, non-permeable material. N95 or equivalent masks such as KN95 or K95 are recommended. Alternatives to face coverings, such as face shields, loose gaiters, scarves, bandanas, and face coverings with ventilation, are not permitted to be used as masks. Although we encourage you to bring your own masks that you find comfortable, there will also be free masks available for attendees during each day of PyCascades, as supplies permit.
+Any policy updates we publish will not weaken this policy before our event on March 21st and 22nd, 2026.
 
-Attendees who are repeatedly unwilling to comply with the mask requirements will be asked to leave and are not eligible for a refund.
+### Definitions
+- **Expect** means that a measure is a condition of entry and considered to be reasonable conduct at the event. Reports of non-compliance will be treated as incidents of Harassment (as referred to in our Code of Conduct) and may result in removal from the conference without recourse.
+- **Encourage** means that a measure is voluntary, however, compliance will improve the health and safety standards for all attendees.
+- **Commit** means that the organizers will ensure that a measure will be in place during the conference.
+- **Strive** means that the organizers will attempt to set a measure in place during the conference.
+- **Attendees** includes people with paid or unpaid tickets to attend the conference, people entering conference restricted space such a presentation rooms, all presenters, vendors engaged by, or on behalf of PyCascades, as well as volunteers and organizers during each scheduled conference day, or on setup days in spaces where physical distancing cannot be maintained.
+
+### Masking
+Masking is recommended in all conference spaces.
+
+We *encourage* attendees to wear masks (as described in the “facial coverings” paragraph below) in all indoor spaces, any spaces where physical distancing cannot be maintained, and any other spaces designated by the conference organizers.
+
+We *expect* facial coverings to be made of a tight-knit, non-permeable material that completely covers the nose and mouth. Facial coverings should should be of N95 or equivalent rating, as recommended by the United States Centers for Disease Control (CDC). These are particularly effective at reducing exposure to viruses, allergens, and other pollutants that may cause COVID/flu-like symptoms.
+
+The first two (2) violations of this masking policy by a participant will result in verbal or written warnings. A third (3rd) violation will result in removal from the conference with no recourse.
+
+Note that there are spaces on our venue’s premises which are not subject to our policy.
 
 ### Vaccinations are Encouraged
 
-We encourage PyCascades attendees to stay up to date with the vaccinations that are available to them where they live. We know that PyCascades attendees come from all over the world, and the availability of current vaccines is extremely different from place to place. We encourage you to do your best.
+We *encourage* PyCascades attendees to stay up to date with the vaccinations that are available to them where they live. We know that PyCascades attendees come from all over the world, and the availability of current vaccines is extremely different from place to place. We are all doing our best to keep each other safe!
 
 ### Rapid COVID-19 Tests Are Encouraged
 
-We encourage PyCascades attendees to use at-home/antigen/rapid tests before they attend each day.
+We *encourage* PyCascades attendees to use at-home/antigen/rapid tests before they attend each day.
+
+If you experience flu-like symptoms we *expect* you to perform an at-home test.
 
 ### Attend Online
 
-We are going to continue investing in making PyCascades an excellent option for folks who don’t feel comfortable attending a masked event, or find travel to Seattle inconvenient, or want to hang with the awesome PyCascades volunteer team, or who would prefer online for any reason at all.
+We *commit* to making PyCascades an excellent option for folks who don’t feel comfortable attending an in-person event, find travel to Vancouver inconvenient, want to hang with the awesome online PyCascades volunteer team, or who would prefer online for any reason at all.
+
+We *strive* to provide remote participation options for social events.
 
 ### Easy Refunds
 
-We expect people to stay home if they may be contagious. If you are feeling sick or exhibiting symptoms of COVID-19, or test positive for COVID-19, prior to the start of the conference, or on any day of the conference, please contact us at organizers@pycascades.com, and we will exchange your ticket type for an online ticket or grant you a refund. Onsite attendees will be able to watch talks online while they recover, wait for the results of a COVID test or sort out any kind of unexpected allergy or “weird cold.”
+We *expect* people to stay home if they may be contagious. If you are feeling sick or exhibiting symptoms of COVID-19, or test positive for COVID-19, prior to the start of the conference, or on any day of the conference, please contact us at organizers@pycascades.com, and we will exchange your ticket type for an online ticket or grant you a refund. Onsite attendees will be able to watch talks online while they recover, wait for the results of a COVID test, or sort out any kind of unexpected allergy or “weird cold.”
+
+We *commit* to easy ticket exchanges or refunds if you cannot attend due to health reasons. 
 
 ### No Rollback
 
 We promise not to downgrade our Health & Safety Policy between now and the event to allow community members to make decisions about attending with confidence that this policy won’t be weakened between when they buy a ticket or submit a talk and when the conference takes place. If there is a development that recommends an additional precaution, then we will add it, but we will not be subtracting anything or softening our mask policy.
+
+***
+
+This Health and Safety Policy is based in part on SeaGL's policy found on their [website](https://seagl.org/health_and_safety_policy).  It is available under the [Creative Commons Attribution-ShareAlike (CC BY-SA) License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+We are eager to consider any additions to this Health and Safety Policy that you might find valuable, to better support you or others, or to clarify our objective.
+
+Thank you!
 ---
 sort_index: 6
 ---
-_hidden: yes
+_hidden: no
