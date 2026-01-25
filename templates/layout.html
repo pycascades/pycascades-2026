@@ -119,6 +119,14 @@
         <a rel="me" href="{{ organizer.mastodon_url }}" aria-hidden="true" tabindex="-1"></a>
     {% endfor %}
 </div>
+<script>
+    function openMenu() {
+        console.log('toggling classes');
+        document.querySelector('.navbar-burger').classList.toggle('is-active');
+        document.querySelector('.navbar-menu').classList.toggle('is-active');
+    }
+    document.querySelector('.navbar-burger').addEventListener('click', openMenu);
+</script>
 
 </body>
 
