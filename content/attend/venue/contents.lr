@@ -1,11 +1,28 @@
 _model: page
 ---
-title: Venue
----
-body: 
+title: About Vancouver
 ---
 show_in_menu: yes
 ---
+body: 
+### Segal Centre
+The Joseph & Rosalie Segal Centre is a building within the Simon Fraser University, Harbour Centre campus. SFU opened its Harbour Centre campus in 1989. As BC’s first urban campus, it marked a new era in post-secondary education. Situated in the heart of downtown Vancouver, Harbour Centre offers a variety of meeting, classroom, reception, and laboratory spaces.
+
+### Public Transit
+Major public transit lines, the SeaBus, SkyTrain and WestCoast Express terminate at Waterfront Station, located in the historic CP Rail Station on Cordova Street, opposite Simon Fraser University at Harbour Centre. Transit schedules can be found at www.translink.ca. The Centre is also within easy walking distance of all street buses with a terminus in downtown Vancouver.
+
+### Driving from Vancouver International Airport (YVR)
+From the airport, proceed north along the Arthur Laing Bridge to Granville Street. Head north on Granville Street into downtown Vancouver. After crossing the Granville Street Bridge, take the Seymour Street exit and continue north on Seymour until Hastings. Harbour Centre is located on Hastings Street, between Seymour and Richards.
+
+### Parking
+Public parking is available at many locations near the Centre. Street parking is free after 10 pm. The closest parking lot is at 400 West Cordova Street. Here is a list of [impark lots nearby](https://lots.impark.com/IMP/en?latlng=49.28432512044114,-123.11095830783042&zoom=17#).
+
+### Hotels
+There are a large number of hotels in the downtown area within walking distance of the Harbour Centre. The Centre is located close to all forms of public transit so hotels outside of the downtown core are a viable option as well.
+
+[Here is a list of hotels near the Harbour Centre](https://www.google.com/maps/search/hotels/@49.2846728,-123.1138545,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDEwNy4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D).
+
+---
 sort_index: 0
 ---
-_hidden: yes
+_hidden: no

@@ -6,19 +6,26 @@ show_in_menu: yes
 ---
 sort_index: 1
 ---
-content:
+body:
 
-#### markdown ####
-title: Venue
-----
-hidden: False
-----
-body: For venue specific information, please see the [venue page](/attend/venue).
-#### markdown ####
-title: Food and Drinks
-----
-hidden: False
-----
-body: TBD
+## Watch the talks
+
+We have two areas for watching talks:
+- The main stage will be in the Fletcher Auditorium. This is the space where you can see the speakers live.
+- The Barrick Gold Lecture Room, room 1520, is our quiet room. Our live closed captioning will be turned on and the volume turned off. Lights will be dimmed. Any attendees in this room are expected to keep all noise to a minimum.
+
+## Food and Drinks
+
+As in previous years, we'll have coffee, tea, water, and snacks available in the morning and afternoon. For lunch, we take an extended break to allow attendees a chance to head out into Vancouver to enjoy the local fare.
+
+**No food or drinks are allowed in the Fletcher Auditorium**
+
+<!-- Update the link to the H&S policy when it's live -->
+## Outside the talks
+
+Feel free to stick around in the Segal Centre and Concourse to visit our sponsors or socialize before and after the conference. Keep in mind that our [Health and Safety Policy](https://2026.pycascades.com/about/the-conference/) and [Code of Conduct](https://2026.pycascades.com/about/code-of-conduct/) apply any time you're in the conference areas.
+
+## Nursing Room
+SFU has a nursing room on the campus in room 2179. This can be accessed through Campus Staff at 778 782-5029. Have an out of country SIM card? One of the organizers will be happy to get in touch with them for you. 
 ---
-_hidden: yes
+_hidden: no
