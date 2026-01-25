@@ -2,4 +2,6 @@ _model: page
 ---
 title: Attend
 ---
-_hidden: yes
+_hidden: no
+---
+_discoverable: no
