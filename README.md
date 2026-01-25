@@ -56,24 +56,27 @@ new page to be the child of. For example, to add a new page under the "about" se
 2. Click the pencil icon on the top right corner
 3. Click `Add Page` in the `Page Actions` on the left side of the screen
 4. Set your title, and ID
-    - Note: you cannot choose a model here, because it is automatically selected to be a `blog-post`
-    model, because the `news` page uses the `blog` model, which specifies that child pages use the
-    `blog-post` model.
+    - Note: you cannot choose a model here, because it is automatically selected to be a `organizer`
+    model, because the `the-team` page uses the `the-team` model, which specifies that child pages use the
+    `organizer` model.
 5. Fill out the additional fields on the next page
 6. Add an attachment called `profile.jpg` that will be used as their photo on the team page
 
-## Adding News Posts
-1. Navigate to `http://127.0.0.1:5000/news/`
+
+## Adding Sponsors
+1. Navigate to `http://localhost:5000/sponsors/our-sponsors/`
 2. Click the pencil icon on the top right corner
 3. Click `Add Page` in the `Page Actions` on the left side of the screen
-4. Set your title, and ID
-    - Note: you cannot choose a model here, because it is automatically selected to be a `blog-post`
-    model, because the `news` page uses the `blog` model, which specifies that child pages use the
-    `blog-post` model.
-5. Fill out the `Author`, `Publication date`, `Intro`, and `Body` on the next page
-    - `Intro` should be the first paragraph or so of content that you want visible on the `/news`
-    page which lists all of the recent blog posts
-    - `Body` is the main content of the post, but is hidden from the list view
+4. Set the title (Sponsor's name) and ID
+    - Note: you cannot choose a model here, because it is automatically selected to be a `sponsor`
+    model, because the `our-sponsors` page uses the `sponsors` model, which specifies that child pages use the
+    `sponsor` model.
+5. Fill out the additional fields on the next page
+6. Add the sponsor's logo to content/sponsors/our-sponsors/{sponsor-name}/logo.png
+   - Note: it _must_ be called `logo.png`
+   - Note: the largest we render these is 300px high. Ideally, we should get the closest size possible
+     from the sponsor, or get an svg that we render as a png 300 px high. Some sponsors send huge PNGs
+     that cause slow load times
 
 ## Adding/Removing Speakers and Talks
 In order to add a new speaker and/or talk you must first log into the pretalx account and export the speakers and
