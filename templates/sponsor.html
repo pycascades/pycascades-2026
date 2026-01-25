@@ -1,15 +1,13 @@
 {% extends 'layout.html' %}
+{% from 'macros/sponsor.html' import render_sponsor %}
 
 {% block title %}
     {{ this.title }}
 {% endblock %}
 
 {% block body %}
-    <section class="section">
-        <div class="container">
-            <div class="content">
-                <h2>{{ this.name }}</h2>
-            </div>
-        </div>
-    </section>
+    <main class="section">
+        <h1>{{ this.name }}</h1>
+        {{ render_sponsor(this) }}
+    </main>
 {% endblock %}

@@ -1,7 +1,7 @@
 {% macro render_sponsor(sponsor) %}
     <div class="sponsor-entry">
         <a href="{{ sponsor.url }}" target="_blank">
-            <img src="{{ sponsor.attachments.get('logo.png') | url }}"/>
+            <img src="{{ sponsor.attachments.get('logo.png') | url }}" alt="{{sponsor.name}} logo"/>
         </a>
         {{ sponsor.about }}
     </div>
@@ -12,7 +12,7 @@
     {% set count = sponsors.count() %}
     {% if count > 0 %}
         <div class="sponsor-tier">
-            <h3>{{ tier }}</h3>
+            <h2>{{ tier }}</h2>
             <div class="sponsor-group">
                 {% for sponsor in site.get("sponsors/our-sponsors").children.filter(F.tier == tier) %}
                     {{ render_sponsor(sponsor) }}
