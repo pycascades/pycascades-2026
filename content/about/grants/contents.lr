@@ -2,11 +2,11 @@ _model: page
 ---
 title: Grants
 ---
-show_in_menu: no
+show_in_menu: yes
 ---
 body:
 
-### About our grants program
+## About our grants program
 
 Our grants program is an important tool that helps us realize a goal of creating an inclusive, respectful conference that welcomes people of all races, ethnicities, genders, ages, abilities, religions, and sexual orientations. We provide financial assistance so people who might otherwise not be able to afford to join our event can.
 
@@ -16,15 +16,81 @@ Our grants program prioritizes people with relatively low income, speakers, spri
 
 Note: applicants are not guaranteed the full amount that they apply for. We allocate funds as fairly as we can across approved applicants and within the budget we are allowed.
 
-### Timeline
+## Timeline
 
-* **Date TBD**: Grant applications open
-* **Date TBD**: Grant applications close for all participant types
+* Now: Grant applications open
+* February 14, 2026: Grant applications close for all participant types
+* February 21, 2026: Grant applicants are informed of grant decisions
 
-### Apply
+## Apply
 
-If you would like to apply for a grant, please submit an application [here](https://docs.google.com/forms/d/e/1FAIpQLSdibq_qwFce_IW6fhb6BRlixuZs82zqHBpxwRqUhPN23S7HEg/viewform). If you have any questions, feel free to reach out to our financial aid team at [grants@pycascades.com](mailto:grants@pycascades.com).
+If you would like to apply for a grant, please submit an application [here](https://docs.google.com/forms/d/e/1FAIpQLScgUmxAY2NcSXc98iD53MUeUMTm7KTgHvTYrmTh7DNL24XUDA/viewform). If you have any questions, feel free to reach out to our financial aid team at [grants@pycascades.com](mailto:grants@pycascades.com).
+
+## FAQ
+
+### Q: What kind of costs are covered by the PyCascades Grant award?
+A: The costs covered by the Grant award may include some or all of the below:
+
+* Travel:
+  * Transit receipts: taxi, bus, train, and mileage to/from airport, bus station, train station, lodging or conference center, and parking at these locations.
+  * Driving: We will be following the 2024 IRS mileage rate. Please be sure to provide a PDF or an image of the mileage for your trip. Please do not submit gas receipts.
+  * Airfare including baggage fees for travel to/from the conference.
+* Lodging: hotels, motels, hostels, AirBnB, etc. for the days you attend the conference. Reimbursement is limited to the shared cost if the room has more than one occupant.
+* Food (Per Diem): covers food during the days you attend the conference plus a travel day at the beginning and end of your trip at a fixed rate. Please do not upload food receipts. Per-diems are automatically granted to you based on the days that you are attending PyCascades, plus up to one travel day before and after conference attendance.
+* Visa fees: if you are a non US national and must have a visa to attend the conference.
+* Tickets: a free ticket or a refund on the ticket cost.
+
+The following costs are not covered by the grant:
+
+* Airport Lounge Access Fees
+* On-board/Airport/Hotel WiFi Charges
+* Cellular roaming/international charges
+
+### Q: What if I need help with a US visitor visa?
+A: We can provide you with an “Invitation Letter” upon request, in support of an application for a United States visitor visa. It confirms that as a registered delegate you are invited to attend PyCascades by the Python Software Foundation (PSF) and the PyCascades 2024 committee.
+
+### Q: What if I don’t come to PyCascades?
+A: If you do not register and attend PyCascades, you will not receive your grant. Please notify the Grants Committee that you cannot attend.
+
+### Q: How and when will I receive my travel grant disbursement?
+A: The Python Software Foundation Accounting Team will issue an electronic disbursement of funds within 7 business days after the completion of the conference, reimbursement method is provided, and receipts are submitted.
+
+### Q: Can I be reimbursed for food?
+A: The Grant Committee automatically adds a per-diem rate for food for each Grant recipient. Please do not submit meal receipts.
+
+### Q: How do I provide a hotel receipt when I haven’t checked out yet?
+A: A reservation confirmation from the hotel may be submitted as a receipt. The reservation confirmation should include the name and address of the hotel/motel/hostel/AirBnB, check-in and check-out dates, number of occupants, and the amount charged per day.
+
+### Q: What type of information should be included on my receipts?
+A: Receipts must include the following:
+
+* Your full name
+* Name of the service provider (i.e., hotel name, taxi company, airline name, etc.)
+* The date of the transaction
+* The amount of the transaction
+
+### Q: What payment options are available?
+A: You may choose to receive your Grant in one of the following payment methods:
+
+* PayPal for US or international payments
+* Zelle for US domestic bank accounts
+* ACH for US domestic bank accounts
+* Wire transfer for international payments
+* Wise for international payments
+* Physical check in USD
+
+The PSF does not issue funds in cash.
+
+No funds will be disbursed prior to or at the event. Only those that attend the conference, confirm identity in person at the check-in at registration, and have submitted receipts will be reimbursed.
+
+You may choose another person to receive the Grant disbursement on your behalf, but the PSF cannot guarantee that the other person will release the funds to you.
+
+Please visit the Python Software Foundation’s Payment Options page for more information: https://www.python.org/psf/paymentoptions/
+
+### Q: How do I receive my travel grant disbursement?
+A: The Python Software Foundation will issue disbursement of funds within 7 business days after the completion of the conference, reimbursement method is provided, and receipts are submitted. Incomplete receipts or inaccurate payment information may delay your reimbursement. You must attend the conference in order to receive your travel grant disbursement.
+
 ---
 sort_index: 8
 ---
-_hidden: yes
+_hidden: no
