@@ -34,7 +34,7 @@ jobs:
 
       - name: Install Lektor
         run: |
-          python -m pip install --upgrade pip setuptools
+          python -m pip install --upgrade pip setuptools==81.0.0
           python -m pip install lektor
 
       - name: Build lektor website
