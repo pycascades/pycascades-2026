@@ -1,0 +1,7 @@
+name: Microsoft Azure Databases
+---
+about: Azure databases help Python developers build applications without friction at the data layer. Using familiar Python drivers, frameworks, and tools, you can move from local development to global scale while Azure handles availability, security, and operations. From Azure Cosmos DB for low-latency NoSQL and AI-native workloads with built-in vector and hybrid search, to Azure Database for PostgreSQL for open-source relational data with vector support and modern AI patterns, to Azure DocumentDB for open-source, MongoDB-compatible flexibility, and Azure SQL Database and SQL Server for trusted transactional systems—Azure gives Python teams choice without lock-in. With vector search, hybrid queries, and deep integration with Python AI frameworks, Azure databases power RAG pipelines, intelligent agents, and data-driven applications, so you can focus on building software while we run the databases.
+---
+tier: Diamond
+---
+url: https://azure.microsoft.com/en-us/products/category/databases
