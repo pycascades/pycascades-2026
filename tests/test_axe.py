@@ -5,6 +5,7 @@ from collections.abc import Generator
 from contextlib import closing
 from multiprocessing import Process
 from pathlib import Path
+import urllib
 
 import pytest
 import requests
@@ -96,6 +97,8 @@ def all_pages() -> list[str]:
 
 @pytest.mark.parametrize("lektor_page", all_pages())
 def test_all_posts(page: Page, base_url: str, lektor_page: str):
-    page.goto(lektor_page)
+    page.goto(urllib.parse.quote(lektor_page))
     results = Axe().run(page)
+    if results.violations_count > 0:
+        results.save_to_file("results.txt")
     assert results.violations_count == 0, results.generate_report()
