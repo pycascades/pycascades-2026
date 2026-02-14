@@ -11,6 +11,8 @@
                         <img src="{{ speaker.attachments.get('profile.png') | url }}"/>
                     {% elif speaker.attachments.get('profile.gif') %}
                         <img src="{{ speaker.attachments.get('profile.gif') | url }}"/>
+                    {% elif speaker.attachments.get('profile.webp') %}
+                        <img src="{{ speaker.attachments.get('profile.webp') | url }}"/>
                     {% endif %}
                 </figure>
             </div>

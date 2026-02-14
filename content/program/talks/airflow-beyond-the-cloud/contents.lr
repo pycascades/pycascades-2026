@@ -1,0 +1,17 @@
+
+title: Airflow Beyond the Cloud: Python Workflows at the Edge
+---
+description:
+
+Apache Airflow is famous for orchestrating massive data pipelines, but what if you could also use it to orchestrate things in your physical workspace?
+
+In this talk, we'll explore how **Airflow 3's new lightweight architecture** makes *micro-orchestration* possible on resource-constrained devices. I'll demonstrate a real working system where an **Airflow Edge Worker** running on a Raspberry Pi controls an **"On Air" LED** that automatically lights up when a Zoom call starts. All built with standard Python and familiar Airflow patterns.
+
+What starts as a desk toy points to a bigger trend: **orchestration breaking free from the data centre and moving closer to where work actually happens.** You'll walk away seeing Airflow (and Python orchestration in general) not just as a data-engineering tool, but as a bridge between the digital and physical worlds. 
+
+Basic familiarity with Python is all you need, no prior Airflow experience required.
+---
+speaker_slugs:
+
+constance-martineau
+

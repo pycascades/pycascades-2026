@@ -9,7 +9,7 @@ title:
 ----
 hidden: False
 ----
-body: [CSV version](/program/schedule/pycascades-2026_schedule.csv)
+body: <!--[CSV version](/program/schedule/pycascades-2026_schedule.csv)-->
 
 #### html ####
 hidden: False
@@ -29,6 +29,6 @@ content:
     </div>
 </noscript>
 ---
-show_in_menu: no
+show_in_menu: yes
 ---
-_hidden: yes
+_hidden: no

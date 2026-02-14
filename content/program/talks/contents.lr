@@ -2,8 +2,8 @@ _model: talks
 ---
 title: Talks
 ---
-show_in_menu: no
+show_in_menu: yes
 ---
-_hidden: yes
+_hidden: no
 ---
 sort_index: 1

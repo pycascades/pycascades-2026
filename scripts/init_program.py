@@ -40,7 +40,7 @@ twitter_handle: {twitter_handle}
 
 def load_speakers():
     speakers = {}
-    with open("pycascades-2025_speakers.json", "r") as f:
+    with open("pycascades-2026_speakers.json", "r") as f:
         speakers_json = json.load(f)
         for speaker in speakers_json:
             speakers[speaker["ID"]] = speaker
@@ -50,7 +50,7 @@ def load_speakers():
 
 
 def load_talks():
-    with open("pycascades-2025_sessions.json", "r") as f:
+    with open("pycascades-2026_sessions.json", "r") as f:
         talks_json = json.load(f)
         return talks_json
 
@@ -67,18 +67,18 @@ def fetch_speaker_image(speaker):
 
 def render_speaker(speaker, talk):
     name = speaker["Name"]
-    bio = speaker["Biography"] or ""
+    bio = speaker.get("Biography", "")
     talk_title = talk["Proposal title"]
     slug = speaker["slug"]
-    website_url = speaker["Website URL"] or ""
-    mastodon_url = speaker["Mastodon URL"] or ""
-    github_handle = speaker["Github username"] or ""
+    website_url = speaker.get("Website URL", "")
+    mastodon_url = speaker.get("Mastodon URL", "")
+    github_handle = speaker.get("Github username", "")
     if github_handle:
         # Several folks gave us full URLs, all we need are usernames
         github_handle = github_handle.replace("https://github.com/", "")
-    instagram_handle = speaker["Instagram username"] or ""
-    twitter_handle = speaker["Twitter username"] or ""
-    photo_url = speaker["Picture"] or ""
+    instagram_handle = speaker.get("Instagram username", "")
+    twitter_handle = speaker.get("Twitter username", "")
+    photo_url = speaker.get("Picture", "")
     photo_suffix = photo_url.split(".")[-1].lower()
     talk_slug = talk["slug"]
     print(f"Rendering speaker {name}")

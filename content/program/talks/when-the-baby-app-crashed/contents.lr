@@ -1,0 +1,16 @@
+
+title: When the Baby App Crashed: Coding for Chaos (and Parenthood)
+---
+description:
+
+As a first-time parent and a developer, I relied on an app to log sleep and feedings. If I was going to lose sleep, at least I’d have data.
+But one night, the app crashed right when I needed it most. Half-awake and fully frustrated, I decided to build my own version: one that could survive offline and my occasional parental meltdowns.
+
+This talk explores how everyday chaos (*whether in parenting or in production*) can inspire better engineering. I’ll share how concepts like caching and feature flags turned a midnight side project into a small, reliable system.
+
+Attendees will walk away with practical ideas for making their own applications more dependable under real-world conditions. Basic programming experience is helpful, but the talk is accessible to anyone interested in software reliability, distributed systems, or stories from the trenches of sleepless nights.
+---
+speaker_slugs:
+
+laura-meng
+

@@ -1,0 +1,23 @@
+
+title: Variables and objects in Python: it's pointers all the way down
+---
+description:
+
+In Python, assignment statements don't copy objects, and data structures don't actually contain objects. These two surprising facts have a *lot* of interesting consequences and are the reason behind many of Python's design decisions.
+
+In this talk, we'll explore the reference-like nature of Python's variables and objects, noting both the benefits and gotchas involved.
+
+Among other ideas, we'll see that in Python:
+
+- The word "change" is ambiguous
+- Copying is usually explicit
+- Tuples aren't always immutable
+
+During the process, we'll consider our own mental model of Python.
+
+In Python, it's pointers (or references, names, bindings, or aliases) all the way down.
+---
+speaker_slugs:
+
+trey-hunner
+

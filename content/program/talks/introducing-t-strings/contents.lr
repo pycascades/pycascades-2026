@@ -1,0 +1,15 @@
+
+title: Introducing t-strings: f-strings with superpowers
+---
+description:
+
+Python 3.14 introduces t-strings: template string literals that look like f-strings but evaluate to a `Template` instance instead of a `str`. This opens up exciting possibilities for safer string processing (avoiding injection vulnerabilities in SQL and HTML) and powerful custom formatting (like HTML templating directly in Python), all while using the familiar f-string syntax developers already know and love.
+
+In this talk, I'll describe what t-strings are and how they differ from f-strings and other common Python formatting tools. I'll explore when they're a good fit for new projects and how to use them effectively in everyday code. I'll also demonstrate two libraries — `tdom` (HTML) and `t-sql` (SQL) — and close with a live tooling demo in VS Code showing the current state of formatting, linting, and syntax highlighting support.
+
+Attendees will leave knowing when to reach for t-strings, how to adopt them safely, and which tools can improve their developer experience.
+---
+speaker_slugs:
+
+dave-peck
+

@@ -1,0 +1,15 @@
+
+title: Testing the Contract: Keeping Unit Tests Honest
+---
+description:
+
+Unit tests are supposed to increase developer productivity, yet they often break when you refactor working code. The problem is that many tests enforce implementation details rather than the actual contract your code commits to.
+
+In this talk, we'll explore what it means to test contracts instead of implementations. The "unit" in unit testing should be the publicly-observable behavior at your code's boundaries. We'll examine practical techniques for identifying the right testing boundaries and writing precise assertions using tools like PyHamcrest.
+
+The payoff: tests that survive refactoring, faster development cycles, and a test suite that documents your system's actual behavior. Your tests should break when contracts are violated, not when you improve your code.
+---
+speaker_slugs:
+
+moshe-zadka
+

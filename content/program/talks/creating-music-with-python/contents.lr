@@ -1,0 +1,22 @@
+
+title: Creating Music with Python!
+---
+description:
+
+In this talk attendees will learn about Jython, an open source implementation of the Python programming language, integrated with the Java platform for music making and creative programming activities.
+
+Attendees will leave this talk with an understanding of Jython libraries for:
+music making
+image manipulation
+building graphical user interfaces (GUIs),
+connecting to external MIDI and OSC devices
+music transcription and playback
+audio looping, computer-aided music composition
+development of computer-based musical instruments (including hybrid instruments)
+live performance.
+Live demo where I will turn my computer into a musical instrument to play music made by Beethoven, Deep Purple, Tupac Shakur, Mozart, and Deep Purple.
+---
+speaker_slugs:
+
+herve-aniglo
+

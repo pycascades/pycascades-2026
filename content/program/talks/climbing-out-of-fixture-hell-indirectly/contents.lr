@@ -1,0 +1,20 @@
+
+title: Climbing Out of Fixture Hell, Indirectly
+---
+description:
+
+Once you've moved past the basics of assert and test_ functions, developers often run into a new set of challenges when projects and test suites grow in complexity. This talk explores using pytest's indirect fixtures to create modular, maintainable test suites that scale with your codebase. 
+
+Fixture overuse and mismanagement is one of the most common areas of difficulty with testing/pytest 
+- passing data to fixtures: they want to parametrize a `fixture` itself (this is how I initially discovered indirect parametrization)
+- fixture hell: conftest.py becomes a dumping ground for poorly named, complex, and interdependent fixtures, making it hard to comprehend what a single test is doing
+- scope confusion: struggles with when to use `function`, `class`, `module` or `session` scopes that lead to tests that are either slow (re-creating expensive resources for every test) or flaky (tests interfering with each other via session-scoped fixtures).
+
+You'll discover how `indirect=True` parametrization can elegantly address each of these pain points and see examples of how to refactor messy, hard-to-read tests into clean, declarative patterns. Come away with a clearer mental model of fixture scopes and how to optimize them to reduce test run times.
+
+This talk is for intermediate developers who have basic experience with fixtures and parametrization, who may have encountered the pain points of maintaining a growing test suite.
+---
+speaker_slugs:
+
+sammie-jiang
+

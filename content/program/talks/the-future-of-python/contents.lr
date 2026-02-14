@@ -1,0 +1,15 @@
+
+title: The Future of Python: Evolution or Succession?
+---
+description:
+
+A decade from now there's a reasonable chance that Python won't be the world's most popular programming language. Many languages eventually have a successor that inherits large portions of its technical momentum and community contributions. With Python turning 35 years old, the time could be ripe for Python's eventual successor to emerge. How can we help the Python community navigate this risk by embracing change and evolving, or influencing a potential successor language?
+
+This talk will cover the past, present, and future of the Python language's growing edge. We'll learn about where Python began and its early influences. We'll look at shortcomings in the language, how the community is trying to overcome them, and opportunities for further improvement. We'll consider the practicalities of language evolution, how other languages have made the shift, and the unique approaches that are possible today (e.g., with tooling and AI).
+
+All levels of experience are welcome!
+---
+speaker_slugs:
+
+brett-slatkin
+
