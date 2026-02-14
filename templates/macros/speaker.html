@@ -4,15 +4,15 @@
             <div class="card-image">
                 <figure class="image">
                     {% if speaker.attachments.get('profile.jpg') %}
-                        <img src="{{ speaker.attachments.get('profile.jpg') | url }}"/>
+                        <img src="{{ speaker.attachments.get('profile.jpg') | url }}" alt="Photo of {{speaker.name}}"/>
                     {% elif speaker.attachments.get('profile.jpeg') %}
-                        <img src="{{ speaker.attachments.get('profile.jpeg') | url }}"/>
+                        <img src="{{ speaker.attachments.get('profile.jpeg') | url }}" alt="Photo of {{speaker.name}}"/>
                     {% elif speaker.attachments.get('profile.png') %}
-                        <img src="{{ speaker.attachments.get('profile.png') | url }}"/>
+                        <img src="{{ speaker.attachments.get('profile.png') | url }}" alt="Photo of {{speaker.name}}"/>
                     {% elif speaker.attachments.get('profile.gif') %}
-                        <img src="{{ speaker.attachments.get('profile.gif') | url }}"/>
+                        <img src="{{ speaker.attachments.get('profile.gif') | url }}" alt="Photo of {{speaker.name}}"/>
                     {% elif speaker.attachments.get('profile.webp') %}
-                        <img src="{{ speaker.attachments.get('profile.webp') | url }}"/>
+                        <img src="{{ speaker.attachments.get('profile.webp') | url }}" alt="Photo of {{speaker.name}}"/>
                     {% endif %}
                 </figure>
             </div>
@@ -20,8 +20,8 @@
             <div class="card-content">
                 <div class="media">
                     <div class="media-content">
-                        <h4 class="title is-4">{{ speaker.talk_title }}</h4>
-                        <h6 class="subtitle is-6">{{ speaker.name }}</h6>
+                        <h2 class="title is-4">{{ speaker.talk_title }}</h2>
+                        <h3 class="subtitle is-6">{{ speaker.name }}</h3>
 
                         {% if full_details %}
                             <p>{{ speaker.bio }}</p>
@@ -37,7 +37,7 @@
     <div class="speaker is-flex mb-6">
         <div class="speaker-info">
             <div class="speaker-name-and-bio mb-5">
-                <h4 class="title is-4">About {{ speaker.name }}</h4>
+                <h2 class="title is-4">About {{ speaker.name }}</h4>
                 <div class="content">{{ speaker.bio }}</div>
             </div>
 

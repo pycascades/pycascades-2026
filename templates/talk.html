@@ -4,18 +4,19 @@
   {{ this.title }}
 {% endblock %}
 {% block body %}
+<main>
     <section class="section">
         <div class="container">
             <div class="content mb-3">
                 <h1>{{ this.title }}</h1>
-                <h4>
+                <h2 class="h4">
                     {% for speaker_slug in this.speaker_slugs %}
                         {{ site.get("program/speakers/" + speaker_slug).name }}
                         {% if loop.nextitem %}
                         {{ "&" }}
                         {% endif %}
                     {% endfor %}
-                </h4>
+                </h2>
                 {{ this.description }}
             </div>
         </div>
@@ -30,4 +31,6 @@
             </div>
         </div>
     </section>
+
+</main>
 {% endblock %}

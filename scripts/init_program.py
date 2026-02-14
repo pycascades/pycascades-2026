@@ -1,5 +1,7 @@
 from pathlib import Path
 import json
+import urllib
+
 import requests
 
 talk_template = """
@@ -86,7 +88,7 @@ def render_speaker(speaker, talk):
         name=name,
         bio=bio,
         talk_title=talk_title,
-        talk_slug=talk_slug,
+        talk_slug=urllib.parse.quote(talk_slug),
         website_url=website_url,
         mastodon_url=mastodon_url,
         github_handle=github_handle,
@@ -103,10 +105,7 @@ def render_speaker(speaker, talk):
 
     file_path = Path(folder_path, "contents.lr")
 
-    if not file_path.exists():
-        file_path.write_text(contents)
-    else:
-        print(f"File {file_path} already exists")
+    file_path.write_text(contents)
 
     if photo_url == "":
         print(f"{name} - picture URL is empty")
@@ -153,7 +152,7 @@ def render_talk(talk, speakers):
 
     for speaker_id in talk["Speaker IDs"]:
         speaker = speakers[speaker_id]
-        speaker_slugs.append(speaker["slug"])
+        speaker_slugs.append(urllib.parse.quote(speaker["slug"]))
         render_speaker(speaker, talk)
 
     contents = talk_template.format(

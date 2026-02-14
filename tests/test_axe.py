@@ -17,6 +17,12 @@ from lektor import db
 
 expect.set_options(timeout=10_000)
 
+# pages we don't want to test.
+# include a comment about why.
+PAGE_DENY_LIST = {
+    "/program/schedule/",  # this loads pretalx's code, which we are poweless to fix
+}
+
 
 def wait_for_server_ready(url: str, timeout: float = 10.0, check_interval: float = 0.5) -> bool:
     """Make requests to provided url until it responds without error."""
@@ -86,8 +92,10 @@ def get_pages(query, pad, pages: set[str]):
         # is probably imperceptibly slower
         pages.add(f"{page.path}/")  
         get_pages(db.Query(page.path, pad), pad, pages)
-    return pages
     
+    return pages.difference(PAGE_DENY_LIST)
+
+
 def all_pages() -> list[str]:
     project = Project.discover()
     env = project.make_env()
