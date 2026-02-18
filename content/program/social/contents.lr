@@ -1,17 +1,25 @@
 _model: page
 ---
-title: Social
+title: Social Hour Hosted by Microsoft
 ---
-show_in_menu: no
+show_in_menu: yes
 ---
 _hidden: no
 ---
-_discoverable: no
+_discoverable: yes
 ---
 sort_index: 3
 ---
 body:
 
-TBD
+Join us for a pre-social on **Friday, March 20th at 6pm\!** Meet us just around the corner for our social hosted by Microsoft: pick up your badge, meet our team and fellow attendees, eat some fabulous food, and play some games\!
+
+_note: this event does not cost extra, but does require a ticket because space is limited. You can add it on to your conference ticket purchase at no additional cost_
+
+
+**Friday, March 20th at 6pm**
+
+
+**155 Water St, Vancouver, BC V6B1A7**
 ---
-content:
+content: 
