@@ -1,12 +1,26 @@
 _model: page
 ---
-title: About Vancouver
+title: About Our Venue
 ---
 show_in_menu: yes
 ---
 body: 
-### Segal Centre
+### Address 
+<div class="h-card">
+  <p class="p-adr h-adr">
+    <span class="p-name">SFU Harbour Centre</span><br>
+    <span class="p-street-address">515 W Hastings St</span><br>
+    <span class="p-locality">Vancouver</span>
+    <span class="p-region">BC</span>
+    <span class="p-postal-code">V6B 5K3</span>
+    <span class="p-country-name">Canada</span>
+  </p>
+</div>
+### About Segal Centre
 The Joseph & Rosalie Segal Centre is a building within the Simon Fraser University, Harbour Centre campus. SFU opened its Harbour Centre campus in 1989. As BC’s first urban campus, it marked a new era in post-secondary education. Situated in the heart of downtown Vancouver, Harbour Centre offers a variety of meeting, classroom, reception, and laboratory spaces.
+
+
+## Getting There
 
 ### Public Transit
 Major public transit lines, the SeaBus, SkyTrain and WestCoast Express terminate at Waterfront Station, located in the historic CP Rail Station on Cordova Street, opposite Simon Fraser University at Harbour Centre. Transit schedules can be found at www.translink.ca. The Centre is also within easy walking distance of all street buses with a terminus in downtown Vancouver.
