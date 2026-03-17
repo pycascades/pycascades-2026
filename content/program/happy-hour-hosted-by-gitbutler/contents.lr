@@ -1,0 +1,28 @@
+_model: page
+---
+title: Happy Hour Hosted By GitButler
+---
+content:
+
+#### html ####
+hidden: False
+----
+content:
+
+<p>Our sponsor GitButler is hosting a happy hour event after day 1 of talks!</p>
+
+<p>Join them at GRETA Bar YVR, just a few blocks from the venue for light food, drinks, and video games - all gratis!
+This is free to attend, but GitButler has asked that you <a href="https://luma.com/euvnqn57)"?>RSVP here</a></p>
+
+<div class="h-card">
+  <p class="p-name">GRETA Bar YVR</p>
+  <p class="p-adr h-adr">
+    <span class="p-street-address">50 W Cordova St</span><br>
+    <span class="p-locality">Vancouver</span>
+    <span class="p-region">BC</span>
+   <span class="p-postal-code">V6B 1C8</span>
+    <span class="p-country-name">Canada</span>
+  </p>
+</div>
+<br>
+<p><em>Note that this event is planned and hosted by our sponsor</em></p>
