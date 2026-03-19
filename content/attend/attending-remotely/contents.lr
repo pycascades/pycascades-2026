@@ -19,7 +19,7 @@ body:
 
 For our online attendees, we are holding the conference programs in **Venueless.** You'll enter Venueless via your Pretix confirmation email. Madison has helpfully created this instructional video to help you get into the platform:
 
-**NOTE: Venueless will open at 12PM PST on Friday, February 7th** _(contrary to what is said in the video)_
+**NOTE: Venueless will open at 12PM PST on Friday, March 20** _(the video is from a previous year)_
 #### html ####
 hidden: False
 ----
@@ -35,7 +35,7 @@ You'll have received an order confirmation email after purchasing your ticket. T
 
 ![Screenshot of a ticket page with a "Join online event" button](join-online-event.png)
 
-This button won't be available until **Friday, February 7th 2025**, when we'll turn on access to our event platform. After that you'll see the **"Join online event"** button at the top of your order. Click on the link to log into the platform and setup your account.
+This button won't be available until **Friday, March 20th 2026**, when we'll turn on access to our event platform. After that you'll see the **"Join online event"** button at the top of your order. Click on the link to log into the platform and setup your account.
 #### markdown ####
 title: Setup Your Profile
 ----
@@ -95,7 +95,7 @@ You'll find some general documentation on our [**Welcome Page**](https://pycasca
 
 #### Help Desk & Code of Conduct
 
-You might not find your answer in our documentation or have a specific issue that you need **our help with**. Head over to the [**Get Help > Help Desk**](https://pycascades.venueless.events/exhibitors/d031a369-af99-4584-a2a3-fa289be114a1) section in Venueless.
+You might not find your answer in our documentation or have a specific issue that you need **our help with**. Head over to the **Get Help > Help Desk** section in Venueless.
 
 ☎️ You can **contact a staff member** through the "Reach Out to Us" button.
 
@@ -103,7 +103,7 @@ You might not find your answer in our documentation or have a specific issue tha
 
 ![Screenshot of the Help Desk page in Venueless](help-page.png)
 
-For any **Code of Conduct** issues, please reach out to the Code of Conduct committee at [**Get Help > Code of Conduct**](https://example.com)**.**
+For any **Code of Conduct** issues, please reach out to the Code of Conduct committee at **Get Help > Code of Conduct**
 
 ![Screenshot of the Code of Conduct page in Venueless](code-of-conduct.png)
 #### markdown ####
@@ -113,7 +113,7 @@ hidden: False
 ----
 body:
 
-We wouldn't be able to do any of this without the **generosity and support of our sponsors.** You can see who supported us this year by visiting the [sponsor page of our website](/program/sponsors/our-sponsors/).
+We wouldn't be able to do any of this without the **generosity and support of our sponsors.** You can see who supported us this year by visiting the [sponsor page of our website](/sponsors/our-sponsors/).
 
 #### Reach Out To Sponsors
 
@@ -133,6 +133,6 @@ body:
 
 Do you have a topic that you'd like to talk about with a smaller group of people? You've met a few people and would like a place for a conversation with these folks?
 
-**Reach out to our volunteers** either in the chat or through the [**Get Help > Help Desk**](https://example.com) and we can help you find an appropriate for you to chat.
+**Reach out to our volunteers** either in the chat or through the **Get Help > Help Desk** and we can help you find an appropriate for you to chat.
 ---
-_hidden: yes
+_hidden: no

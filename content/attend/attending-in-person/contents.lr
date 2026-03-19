@@ -8,6 +8,16 @@ sort_index: 1
 ---
 body:
 
+## Address 
+<address class="h-card">
+  <p class="p-adr h-adr">
+    <span class="p-name">SFU Harbour Centre</span><br>
+    <span class="p-street-address">515 W Hastings St</span><br>
+    <span class="p-locality">Vancouver</span>
+    <span class="p-region">BC</span>
+  </p>
+</address>
+
 ## Watch the talks
 
 We have two areas for watching talks:

@@ -10,7 +10,6 @@ title:
 hidden: False
 ----
 body: <!--[CSV version](/program/schedule/pycascades-2026_schedule.csv)-->
-
 #### html ####
 hidden: False
 ----
@@ -32,3 +31,5 @@ content:
 show_in_menu: yes
 ---
 _hidden: no
+---
+sort_index: 1
