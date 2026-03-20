@@ -3,6 +3,7 @@ _model: page
 title: Code of Conduct
 ---
 anchors:
+
 The Principles|principles
 Applicability|applicability
 Speakers, Presenters, and Open-Space Organizers|speakers
@@ -167,3 +168,5 @@ sort_index: 3
 ---
 related_pages:
 
+/about/code-of-conduct-reporting-guide
+/about/code-of-conduct-response-playbook
