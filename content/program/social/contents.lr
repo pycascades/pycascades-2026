@@ -2,17 +2,17 @@ _model: page
 ---
 title: Social Hour Hosted by Microsoft
 ---
-show_in_menu: yes
+show_in_menu: no
 ---
-_hidden: no
+_hidden: yes
 ---
-_discoverable: yes
+_discoverable: no
 ---
 sort_index: 4
 ---
 body:
 
-Join us for a pre-social on **Friday, March 20th at 6pm!** 
+Join us for a pre-social on **Friday, March 19th at 6pm!** 
 
 Meet us just around the corner for our social hosted by Microsoft: pick up your badge, meet our team and fellow attendees, eat some fabulous food, and play some games\!
 

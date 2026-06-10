@@ -7,11 +7,11 @@ content:
 #### markdown ####
 title: 
 ----
-hidden: False
+hidden: Trye
 ----
 body: <!--[CSV version](/program/schedule/pycascades-2026_schedule.csv)-->
 #### html ####
-hidden: False
+hidden: True
 ----
 content:
 
@@ -28,8 +28,8 @@ content:
     </div>
 </noscript>
 ---
-show_in_menu: yes
+show_in_menu: no
 ---
-_hidden: no
+_hidden: yes
 ---
 sort_index: 1

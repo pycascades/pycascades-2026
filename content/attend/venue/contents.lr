@@ -2,7 +2,7 @@ _model: page
 ---
 title: About Our Venue
 ---
-show_in_menu: yes
+show_in_menu: no
 ---
 body: 
 ### Address 
@@ -36,4 +36,4 @@ There are a large number of hotels in the downtown area within walking distance 
 ---
 sort_index: 0
 ---
-_hidden: no
+_hidden: yes

@@ -2,20 +2,20 @@ _model: page
 ---
 title: Sprints
 ---
-show_in_menu: yes
+show_in_menu: no
 ---
-_hidden: no
+_hidden: yes
 ---
 content:
 
 #### markdown ####
 title: When and Where
 ----
-hidden: False
+hidden: True
 ----
 body:
 
-Monday, March. 23rd, 9am - 5pm PST
+Monday, March. 22nd, 9am - 5pm PST
 
 555 Robson Street, 3rd Floor, Vancouver, BC, V6B 1A6
 

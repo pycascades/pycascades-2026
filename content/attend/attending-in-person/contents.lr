@@ -2,7 +2,7 @@ _model: page
 ---
 title: Attending in Person
 ---
-show_in_menu: yes
+show_in_menu: no
 ---
 sort_index: 1
 ---
@@ -38,4 +38,4 @@ Feel free to stick around in the Segal Centre and Concourse to visit our sponsor
 ## Nursing Room
 SFU has a nursing room on the campus in room 2179. This can be accessed through Campus Staff at 778 782-5029. Have an out of country SIM card? One of the organizers will be happy to get in touch with them for you. 
 ---
-_hidden: no
+_hidden: yes
