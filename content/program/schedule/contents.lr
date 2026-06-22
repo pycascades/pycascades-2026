@@ -7,7 +7,7 @@ content:
 #### markdown ####
 title: 
 ----
-hidden: Trye
+hidden: True
 ----
 body: <!--[CSV version](/program/schedule/pycascades-2026_schedule.csv)-->
 #### html ####
